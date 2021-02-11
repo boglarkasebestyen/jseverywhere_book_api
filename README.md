@@ -1,44 +1,29 @@
 <img src="cover.png" width="200" align="right" />
 
-# JavaScript Everywhere API
+# JavaScript Everywhere - Notedly, a static web app
 
-This repository contains code examples for the API chapters of [_JavaScript Everywhere_](https://www.jseverywhere.io/) by Adam D. Scott, published by O'Reilly Media
+This repository contains the code for the Notedly web application as I followed Adam D. Scott's [_JavaScript Everywhere_](https://www.jseverywhere.io/) book, published by O'Reilly Media.
 
-## Getting Help
+## Technologies used
+Server-side:
 
-The best place to get help is our Spectrum channel, [spectrum.chat/jseverywhere](https://spectrum.chat/jseverywhere).
+- Node.js
+- Express.js
+- Apollo-Server
+- MongoDB
 
-## Directory Structure
+Web:
 
-- `/src` If you are following along with the book, this is the directory where you should perform your development.
-- `/solutions` This directory contains the solutions for each chapter. If you get stuck, these are available for you to consult.
-- `/final` This directory contains the final working project
+- React.js
+- Apollo-Client
+- Styled-Components
 
-## To Use the Final Project Files
 
-If you're developing a UI and would like to use the completed project, copy the files to the completed files to the `src` as follows: 
+## To Open the Application
 
-```
-cp -rf ./final/* ./src/
-```
+Go [here](https://bsebe-deployed-notedly.netlify.app).
 
-## Seed Data
 
-To seed data for local development: `npm run seed`. The password for all of the seeded users is `password`.
-
-Each time this command is run, it will generate 10 users and 25 notes.
-
-## Related Repositories
-
-- [Web 💻 ](https://github.com/javascripteverywhere/web)
-- [Mobile 🤳](https://github.com/javascripteverywhere/mobile)
-- [Desktop 🖥️](https://github.com/javascripteverywhere/desktop)
-
-## Code of Conduct
-
-In the interest of fostering an open and welcoming environment, I pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation..
-
-This project pledges to follow the [Contributor's Covenant](http://contributor-covenant.org/version/1/4/).
 
 ## License
 
